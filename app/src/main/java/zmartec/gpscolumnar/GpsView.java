@@ -13,7 +13,6 @@ import java.util.Iterator;
 
 /**
  * Created by Peakfa on 2016/12/29 17:49
- * E-mail：peakfa@163.com
  * company: Zmartec
  */
 public class GpsView extends View{
