@@ -12,7 +12,7 @@ import android.view.View;
 import java.util.Iterator;
 
 /**
- * Created by Peakfa on 2016/12/29 17:49
+ * Created on 2016/12/29 17:49
  * company: Zmartec
  */
 public class GpsView extends View{
