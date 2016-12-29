@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF161B2E"
+                android:paddingTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/drawlayout"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/firstText"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drawlayout"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/Longitudeview"
+            style="@style/GPS_textcolor"
+            android:text="经度：" />
+
+        <TextView
+            android:id="@+id/Latitudeview"
+            style="@style/GPS_textcolor"
+            android:text="纬度:" />
+
+        <TextView
+            android:id="@+id/Altitudeview"
+            style="@style/GPS_textcolor"
+            android:text="海拔：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sencendText"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstText"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/speedview"
+            style="@style/GPS_textcolor"
+            android:text="速度：" />
+
+        <TextView
+            android:id="@+id/utcview"
+            style="@style/GPS_textcolor"
+            android:text="时间："/>
+
+        <TextView
+            android:id="@+id/textnull"
+            style="@style/GPS_textcolor"
+            android:visibility="invisible"
+            android:text="时间："/>
+    </LinearLayout>
+</RelativeLayout>
